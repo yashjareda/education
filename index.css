@@ -1,0 +1,65 @@
+.yo{
+  border: 5px solid white;
+}
+/*.vl {
+  border-left: 6px solid black;
+  height: 750px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  margin-top: 1200px;
+ } */
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.playlistMathsNine{
+  margin: 12px;
+}
+
+.thumbnail{
+  border: 3px solid black;
+
+}
+.thumbnail:hover{
+  transform: scale(1.06);
+}
+.btn:hover{
+  background-color: #0d6efd;
+  border: 1px solid black;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+body{
+ font-family: 'Ubuntu Condensed', sans-serif;
+ /* background-color: #2ec194  ; */
+}
+/* .yo {
+  border: 5px solid purple; 
+  width: 169px;
+} */
+.thumbnail{
+  box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+.playlistMathsNine{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.playlistScienceNine{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+/* #2ec194 */
